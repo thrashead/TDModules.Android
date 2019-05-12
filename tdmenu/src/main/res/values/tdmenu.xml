@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TDMenu</string>
+    <!--Özellikler-->
+    <declare-styleable name="TDMenu">
+        <attr name="AltMenuGoster" format="boolean" />
+        <attr name="IciniBosalt" format="boolean" />
+        <attr name="AsagiOk" format="string" />
+        <attr name="YukariOk" format="string" />
+        <attr name="FontBuyuklugu" format="integer" />
+        <attr name="FontStili" format="enum">
+            <enum name="Normal" value="0"/>
+            <enum name="Kalin" value="1"/>
+            <enum name="Italik" value="2"/>
+            <enum name="KalinItalik" value="4"/>
+        </attr>
+        <attr name="BaslikAralikArtisOrani" format="integer" />
+        <attr name="MetinAralikOrani" format="enum" />
+    </declare-styleable>
+
+    <!--Metinler-->
+    <string name="alertCikisBaslik">Çıkış Kontrol</string>
+    <string name="alertCikisMesaj">Kapatmak istediğinize emin misiniz?</string>
+    <string name="btnTamamText">Tamam</string>
+    <string name="btnIptalText">İptal</string>
+</resources>
